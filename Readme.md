@@ -1,4 +1,4 @@
-#Appium automation demo project
+# Appium automation demo project
 
 In this project, I used Serenity framework + Junit library + Appium framework to write the script.
 
