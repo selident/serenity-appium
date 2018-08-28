@@ -156,12 +156,10 @@ public class SellScreen extends MobileObject {
 
     //Verify the item after listing successfully methods
     public void closeSummaryScreens(){
+        waitAndClick(By.id("com.thecarousell.Carousell:id/btn_close"));
+        waitAndClick(By.id("com.thecarousell.Carousell:id/button_close"));
         //element(BtnCloseSummary).waitUntilClickable().click();
         //element(BtnCloseListed).waitUntilClickable().click();
-        sleep(1);
-        pressBackButton();
-        sleep(1);
-        pressBackButton();
     }
 
     public void selectMainTab(String tabName){

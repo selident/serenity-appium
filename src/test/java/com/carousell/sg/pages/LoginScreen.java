@@ -23,7 +23,7 @@ public class LoginScreen extends MobileObject {
     private WebElement TxtPass;
 
     public void clickLoginButton(){
-        element(BtnLogin).click();
+        element(BtnLogin).waitUntilClickable().click();
     }
 
     public void enterUsername(String username){
